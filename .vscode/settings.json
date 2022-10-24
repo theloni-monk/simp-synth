@@ -1,0 +1,32 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  //   "tslint.rulesDirectory": "node_modules/tslint-microsoft-contrib",
+  "search.exclude": {
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*?.js": {
+      "when": "$(basename).tsx"
+    },
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*?.js": {
+      "when": "$(basename).tsx"
+    },
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "node_modules": false
+  },
+  "tslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 100
+}

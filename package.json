@@ -1,6 +1,6 @@
 {
-  "name": "infinite.magazine",
-  "homepage": "http://infinitemagazine.mit.edu/",
+  "name": "simple-synthesizer",
+  "homepage": "https://theloni-monk.github.io/simp-synth/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
